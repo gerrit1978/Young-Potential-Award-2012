@@ -2,11 +2,26 @@
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
 body {
-  background: #2f2c2b;
+  background: #ffffff;
   font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+  color: #2f2c2b;
+}
+
+header#section-header {
+  background: #2f2c2b;
   color: white;
 }
 
+footer#section-footer {
+  background: #2d2c2b;
+  color: white;
+  min-height: 135px;
+}
+
+
+/**
+ * ARCHIVE STYLES 
+ */
 #block-block-4 {
   text-align: justify;
 }
