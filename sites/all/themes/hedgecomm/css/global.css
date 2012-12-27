@@ -1,27 +1,159 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
+/**
+ * HTML elements
+ **/
 body {
   background: #ffffff;
   font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
   color: #2f2c2b;
 }
 
+a, a:link, a:visited {
+  text-decoration: none;
+}
+
+/**
+ * Sections
+ **/
 header#section-header {
-  background: #2f2c2b;
+  background: #3a3636;
   color: white;
 }
 
 footer#section-footer {
-  background: #2d2c2b;
+  background: #3a3636;
   color: white;
   min-height: 135px;
 }
 
 
+/** 
+ * Zones
+ */
+
+
+/**
+ * Regions
+ **/
+
+
+/**
+ * Blocks
+ **/
+
+/** Logo **/
+.block-logo {
+  margin-left: -10px;
+}
+
+/* Service Menu */
+.block-service-menu { 
+  margin-top: 50px;
+}
+
+.block-service-menu ul {
+  float: right;
+}
+
+.block-service-menu ul li {
+  list-style: none;
+  float: left;
+	text-transform: uppercase;  
+}
+
+.block-service-menu ul li a {
+  color: white;
+	transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+}
+
+.block-service-menu ul li a.active,
+.block-service-menu ul li.active a,
+.block-service-menu ul li a:hover {
+  color: #ed0973;
+	transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+}
+
+/* Main Menu */
+.block-main-menu {
+  margin-top: 80px;
+}
+
+.block-main-menu ul {
+}
+
+.block-main-menu ul li {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.block-main-menu ul li a {
+  display: block;
+  height: 35px;
+  line-height: 35px;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-right: 1px solid #3a3636;
+  padding: 0 10px;
+  background: #302c2c;
+	transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+}
+
+.block-main-menu ul li a.active,
+.block-main-menu ul li.active a,
+.block-main-menu ul li a:hover {
+  background: #ed0973;
+	transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+}
+
+.block-main-menu ul li.last a {
+  border-right: none;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;	
+}
+
+.block-main-menu ul li.first a {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;	
+}
+
+
+/** Top Text **/
+.block-top-text {
+  margin-top: 20px;
+}
+
+.block-top-text h1 {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 3.143em;
+  line-height: 1;
+  font-weight: 100;
+  margin-bottom: 0;
+}
+
+.block-top-text p {
+  text-align: right;
+  margin-bottom: 0;
+}
+
 /**
  * ARCHIVE STYLES 
- */
 #block-block-4 {
   text-align: justify;
 }
@@ -118,9 +250,9 @@ footer#section-footer {
   text-transform: uppercase;
   text-decoration: none;
   padding: 1px 15px;
-	-moz-transition: all 0.4s; /* Firefox 4 */
-	-webkit-transition: all 0.4s; /* Safari and Chrome */
-	-o-transition: all 0.4s; /* Opera */
+	-moz-transition: all 0.4s; 
+	-webkit-transition: all 0.4s; 
+	-o-transition: all 0.4s; 
   
 }
 
@@ -128,7 +260,9 @@ footer#section-footer {
   background: white;
   color: #2f2c2b;
   transition: all 0.4s;
-	-moz-transition: all 0.4s; /* Firefox 4 */
-	-webkit-transition: all 0.4s; /* Safari and Chrome */
-	-o-transition: all 0.4s; /* Opera */
+	-moz-transition: all 0.4s; 
+	-webkit-transition: all 0.4s; 
+	-o-transition: all 0.4s; 
 }
+
+*/
