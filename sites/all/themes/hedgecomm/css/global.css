@@ -14,12 +14,40 @@ a, a:link, a:visited {
   text-decoration: none;
 }
 
+a.button, a.button-large, a.button-small {
+  color: white;
+  background: #ed0973;
+  display: block;
+  padding: 4px 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+	transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+}
+
+a:hover.button, a:hover.button-large, a:hover.button-small {
+  background: white;
+  color: #ed0973;
+	transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+}
+
+a.button-large {
+  font-size: 1.412em;
+}
+
 /**
  * Sections
  **/
 header#section-header {
   background: #3a3636;
   color: white;
+  height: 395px;
+  padding-top: 10px;
 }
 
 footer#section-footer {
@@ -83,7 +111,7 @@ footer#section-footer {
 
 /* Main Menu */
 .block-main-menu {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .block-main-menu ul {
