@@ -103,9 +103,17 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   padding: 1px 15px;
+	-moz-transition: all 0.4s; /* Firefox 4 */
+	-webkit-transition: all 0.4s; /* Safari and Chrome */
+	-o-transition: all 0.4s; /* Opera */
+  
 }
 
 #block-menu-menu-service-menu ul li.last a:hover {
   background: white;
   color: #2f2c2b;
+  transition: all 0.4s;
+	-moz-transition: all 0.4s; /* Firefox 4 */
+	-webkit-transition: all 0.4s; /* Safari and Chrome */
+	-o-transition: all 0.4s; /* Opera */
 }
