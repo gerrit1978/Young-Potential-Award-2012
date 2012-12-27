@@ -186,9 +186,9 @@ footer#section-footer {
 }
 
 
-/** Homepage **/
+/** Homepage Main Text **/
 body.front #block-system-main {
-    width: 630px;
+    width: 620px;
     height: 290px;
     background: #ebeaea;
     float: left;
@@ -197,11 +197,11 @@ body.front #block-system-main {
 }
 
 body.front #block-system-main .block-inner {
-    margin: 15px;
+    margin: 10px 12px;
 }
 
 body.front #block-system-main h2 {
-    font-size: 30px;
+    font-size: 26px;
     line-height: 1;
     color: #ed0973;
     font-weight: 100;
@@ -224,8 +224,9 @@ body.front #block-system-main a.button-large {
     margin-right: 20px;
 }
 
+/** Homepage Blok Deelnemers **/
 body.front .block-deelnemers {
-    width: 290px;
+    width: 300px;
     height: 290px;
     background: #3a3636;
     border-radius: 10px;
@@ -236,6 +237,57 @@ body.front .block-deelnemers {
 body.front .block-deelnemers .block-inner {
     margin: 20px;    
 }
+
+/** Homepage Blok Prijzen **/
+body.front .block-prijzen {
+    margin: 20px 0;
+    width: 300px;
+    height: 290px;
+    background: #3a3636;
+    border-radius: 10px;
+    float: left;
+    margin-right: 20px;
+    color: white;
+}
+
+body.front .block-prijzen .block-inner {
+  margin: 10px 12px;
+}
+
+/** Homepage Blok Partners **/
+body.front .block-partners {
+    margin: 20px 0;
+    width: 300px;
+    height: 290px;
+    background: #3a3636;
+    border-radius: 10px;
+    float: left;
+    margin-right: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+body.front .block-partners .block-inner {
+  margin: 10px 12px;
+}
+
+
+/** Homepage Blok Twitter **/
+body.front .block-twitter {
+    margin: 20px 0;
+    width: 300px;
+    height: 290px;
+    background: #3a3636;
+    border-radius: 10px;
+    float: left;
+    color: white;
+    margin-top: 20px;
+}
+
+body.front .block-twitter .block-inner {
+  margin: 10px 12px;
+}
+
 
 /**
  * ARCHIVE STYLES 
