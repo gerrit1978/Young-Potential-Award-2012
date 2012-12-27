@@ -40,6 +40,10 @@ a.button-large {
   font-size: 1.412em;
 }
 
+h2 {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
 /**
  * Sections
  **/
@@ -178,6 +182,58 @@ footer#section-footer {
 .block-top-text p {
   text-align: right;
   margin-bottom: 0;
+}
+
+
+/** Homepage **/
+body.front #block-system-main {
+    width: 630px;
+    height: 290px;
+    background: #ebeaea;
+    float: left;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+body.front #block-system-main .block-inner {
+    margin: 20px;
+}
+
+body.front #block-system-main h2 {
+    font-size: 2.143em;
+    line-height: 1;
+    color: #ed0973;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+
+body.front #block-system-main p {
+  margin-bottom: 10px;
+  font-size: 0.857em;
+}
+
+body.front #block-system-main p.pink {
+    color: #ed0973;
+}
+
+body.front #block-system-main a.button-large {
+    width: 38%;
+    float: left;
+    text-align: center;    
+    margin-right: 20px;
+}
+
+body.front .block-deelnemers {
+    width: 290px;
+    height: 290px;
+    background: #3a3636;
+    border-radius: 10px;
+    float: left;
+    color: white;
+}
+
+body.front .block-deelnemers .block-inner {
+    margin: 20px;    
 }
 
 /**
