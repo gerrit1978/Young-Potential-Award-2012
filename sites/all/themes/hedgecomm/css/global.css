@@ -37,8 +37,15 @@ a:hover.button, a:hover.button-large, a:hover.button-small {
 	-o-transition: all 0.2s;
 }
 
+a.button-small {
+    height: 25px;
+    line-height: 25px;    
+}
+
 a.button-large {
   font-size: 1.412em;
+  height: 35px;
+  line-height: 35px;
 }
 
 h2 {
@@ -276,6 +283,8 @@ body.front .block-partners {
 
 body.front .block-partners .block-inner {
   margin: 10px 12px;
+  background: url(../img/bg-block-partners.png) no-repeat center top;
+  padding-top: 140px;
 }
 
 
