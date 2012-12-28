@@ -1,0 +1,7 @@
+name           = Registration Procedure
+description    = Alters order and presentation of user register form
+core           = 7.x
+version        = 7.x-1.0
+package        = HedgeComm
+
+files[] = hc_register.module

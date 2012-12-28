@@ -27,7 +27,7 @@
 </li>
 
 <li class="last" id="button">
-<a href="#" class="button-large">Deelnemen</a>
+<a href="/user/register" class="button-large">Deelnemen</a>
 </li>
 
 </ul>

@@ -1,0 +1,7 @@
+<?php
+
+/**
+ * Implements hook_form_FORM_ID_alter
+ */
+function hc_register_form_user_register_form_alter(&$form, &$form_state) {
+}
