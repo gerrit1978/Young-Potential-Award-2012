@@ -12,6 +12,11 @@ body {
 
 a, a:link, a:visited {
   text-decoration: none;
+  color: #ed0973;
+}
+
+a:hover {
+  color: #000000;
 }
 
 a.button, a.button-large, a.button-small {
