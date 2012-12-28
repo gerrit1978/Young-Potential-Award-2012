@@ -66,6 +66,11 @@ footer#section-footer {
   background: #3a3636;
   color: white;
   min-height: 135px;
+  margin-top: 30px;
+}
+
+section#section-content {
+  margin-top: 10px;
 }
 
 
@@ -82,6 +87,10 @@ footer#section-footer {
 /**
  * Blocks
  **/
+
+.block {
+  line-height: 1.3;
+}
 
 /** Logo **/
 .block-logo {
@@ -197,12 +206,20 @@ footer#section-footer {
 .block-deelnemers,
 .block-prijzen,
 .block-partners,
-.block-twitter {
+.block-twitter,
+.block-prijzen-small,
+.block-partners-small {
     width: 300px;
     height: 350px;
     background: #3a3636;
     border-radius: 10px;
     color: white;
+    margin-bottom: 10px;
+}
+
+.block-prijzen-small,
+.block-partners-small {
+  height: 230px;
 }
 
 .block-deelnemers {
@@ -210,28 +227,61 @@ footer#section-footer {
 }
 
 .block-deelnemers .block-inner {
-    margin: 20px;
+    padding: 20px;
 }
 
-.block-prijzen .block-inner {
-  margin: 10px 12px;
-  background: url(../img/bg-block-prijzen.png) no-repeat center top;
-  padding-top: 140px;
+.block-prijzen .block-inner,
+.block-prijzen-small .block-inner {
+  padding: 10px 12px;
+  background: url(../img/bg-block-prijzen.png) no-repeat center 10px;
+  padding-top: 150px;
 }
 
-.block-partners .block-inner {
-  margin: 10px 12px;
-  background: url(../img/bg-block-partners.png) no-repeat center top;
-  padding-top: 140px;
+.block-partners .block-inner,
+.block-partners-small .block-inner {
+  padding: 10px 12px;
+  background: url(../img/bg-block-partners.png) no-repeat center 10px;
+  padding-top: 150px;
 }
 
 .block-twitter .block-inner {
-  margin: 10px 12px;
+  padding: 10px 12px;
 }
 
-/** Homepage **/
-body.front .block {
-  line-height: 1.3;
+.block-deelnemers h2.block-title,
+.block-prijzen h2.block-title,
+.block-partners h2.block-title,
+.block-twitter h2.block-title,
+.block-prijzen-small h2.block-title,
+.block-partners-small h2.block-title {
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-family: "Myriad Pro";
+}
+
+
+/** Footer **/
+.block-footer {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.block-footer a:link,
+.block-footer a:visited {
+  color: #ed0793;
+	transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+}
+
+.block-footer a:hover {
+  color: white;
+	transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
 }
 
 /** Homepage Main Text **/
