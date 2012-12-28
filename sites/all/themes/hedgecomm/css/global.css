@@ -48,6 +48,13 @@ a.button-large {
   line-height: 35px;
 }
 
+h1#page-title {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  color: #ed0973;
+  font-size: 30px;
+  font-weight: 100;
+}
+
 h2 {
     font-family: "Trebuchet MS", Arial, sans-serif;
 }
@@ -337,6 +344,80 @@ body.front .block-twitter {
 body.front .block-twitter {
   margin-right: 0;
 }
+
+
+/** User (Registration/Edit) page **/
+.page-user .region-content {
+  background: #ebeaea;
+  border-radius: 10px;
+}
+
+.page-user .region-content .region-content-inner {
+  margin: 20px;
+}
+
+.page-user h2.legend {
+  color: #ed0973;
+  margin: 20px 0 0 0;
+  font-size: 22px;
+  font-weight: 100;
+}
+
+.page-user div.separator {
+  border-bottom: 1px solid #cdcccc;
+  height: 1px;
+}
+
+.page-user .form-text {
+  border: none;
+  border-radius: 4px;
+  padding: 4px 10px;
+  width: 350px;
+}
+
+.page-user .field-name-field-reglement .form-required {
+  display: none;
+}
+
+.page-user .field-name-field-nieuws label,
+.page-user .field-name-field-reglement label {
+  display: none;
+}
+
+.page-user .field-name-field-nieuws label.option,
+.page-user .field-name-field-reglement label.option {
+  display: inline;
+}
+
+.page-user .form-submit {
+  border: none;
+  text-shadow: none;
+  color: white;
+  background: #ed0973;
+  display: block;
+  padding: 4px 80px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  text-align: center;
+	transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+  font-size: 1.412em;
+  height: 35px;
+  line-height: 35px;
+  font-weight: 100;
+}
+
+.page-user .form-submit:hover {
+  background: white;
+  color: #ed0973;
+	transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+}
+
 
 /**
  * ARCHIVE STYLES 
