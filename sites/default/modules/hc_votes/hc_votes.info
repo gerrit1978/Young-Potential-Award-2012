@@ -1,0 +1,9 @@
+name          = Votes
+description   = Provides voting functionality
+core          = 7.x
+version       = 7.x-1.0
+package       = HedgeComm
+
+dependencies[] = votingapi
+
+files[] = hc_votes.module

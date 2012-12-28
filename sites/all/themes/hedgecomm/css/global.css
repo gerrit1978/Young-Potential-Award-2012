@@ -346,7 +346,7 @@ body.front .block-twitter {
 }
 
 
-/** User (Registration/Edit) page **/
+/** User (Registration/Edit) pages **/
 .page-user .region-content {
   background: #ebeaea;
   border-radius: 10px;
@@ -418,6 +418,16 @@ body.front .block-twitter {
 	-o-transition: all 0.2s;
 }
 
+
+/** Kandidaten pages **/
+.page-kandidaten .region-content {
+  background: #ebeaea;
+  border-radius: 10px;
+}
+
+.page-kandidaten .region-content .region-content-inner {
+  margin: 20px;
+}
 
 /**
  * ARCHIVE STYLES 
