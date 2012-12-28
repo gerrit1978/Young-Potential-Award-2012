@@ -11,7 +11,7 @@ function hc_register_form_user_register_form_alter(&$form, &$form_state) {
   // user picture fieldset
   $form['picture']['#title'] = '';
   $form['picture']['#title_display'] = FALSE;
-  $form['picture']['#weight'] = '2';
+  $form['picture']['#weight'] = '20';
   $form['picture']['picture_upload']['#description'] = '';
   
   
@@ -23,12 +23,13 @@ function hc_register_form_user_register_form_alter(&$form, &$form_state) {
 	  '#weight' => '-100',
 	);
 	
+	
 	// login gegevens
 	$form['login_gegevens'] = array(
 	  '#type' => 'markup',
 	  '#prefix' => '<div class="separator">&nbsp;</div>',
 	  '#markup' => '<h2 class="legend">' . t('Login gegevens') . '</h2>',
-	  '#weight' => '3',
+	  '#weight' => '30',
 	);
 	
 	$form['extra'] = array(
@@ -58,10 +59,8 @@ function hc_register_form_user_register_form_alter(&$form, &$form_state) {
 	// submit button
 	$form['actions']['submit']['#value'] = t('Registreer');
 
-/*
 	print_r($form);
 	exit();
-*/
 
 }
 
