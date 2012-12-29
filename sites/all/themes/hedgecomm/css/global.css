@@ -239,7 +239,7 @@ section#section-content {
 }
 
 .block-deelnemers .block-inner {
-    padding: 20px;
+    padding: 10px;
 }
 
 .block-prijzen .block-inner,
@@ -272,6 +272,22 @@ section#section-content {
   font-family: "Myriad Pro";
 }
 
+
+/** Block Deelnemers **/
+.block-deelnemers ul.list {
+  list-style: none;
+}
+
+.block-deelnemers ul.list li {
+  width: 65px;
+  float: left;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
+.block-deelnemers ul.list li.last {
+  margin-right: 0;
+}
 
 /** Footer **/
 .block-footer {
