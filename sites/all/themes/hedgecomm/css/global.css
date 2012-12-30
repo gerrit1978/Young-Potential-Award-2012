@@ -243,17 +243,25 @@ section#section-content {
 }
 
 .block-prijzen .block-inner,
-.block-prijzen-small .block-inner {
+.block-prijzen .block-inner {
   padding: 10px 12px;
-  background: url(../img/bg-block-prijzen.png) no-repeat center 10px;
-  padding-top: 150px;
 }
 
-.block-partners .block-inner,
-.block-partners-small .block-inner {
+.block-prijzen .view-prijzen ul li,
+.block-prijzen .view-prijzen ul li {
+  background: none;
+}
+
+.block-prijzen .view-prijzen ul li .image {
+  margin-bottom: 5px;
+} 
+
+.block-partners .block-inner {
   padding: 10px 12px;
-  background: url(../img/bg-block-partners.png) no-repeat center 10px;
-  padding-top: 150px;
+}
+
+.block-partners .view-partners ul li .image {
+  margin-bottom: 5px;
 }
 
 .block-twitter .block-inner {
@@ -534,7 +542,7 @@ body.front .block-twitter {
   padding: 10px;
   float: left;
   margin-right: 10px;
-  min-height: 250px;
+  min-height: 280px;
 }
 
 .view-prijzen ul.inschrijvingsprijzen li.last {
@@ -557,6 +565,19 @@ body.front .block-twitter {
 .view-prijzen ul.inschrijvingsprijzen li .teaser {
   font-weight: 800;
   margin-bottom: 10px;
+}
+
+
+/** Partner Pages **/
+.view-partners ul {
+  margin: 0;
+  padding: 0;
+}
+
+.view-partners ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 /**
