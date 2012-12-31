@@ -459,6 +459,65 @@ body.front .block-twitter {
   margin: 20px;
 }
 
+.page-kandidaten ul.list-kandidaten {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page-kandidaten ul.list-kandidaten li {
+  margin: 0;
+  padding: 0;
+  float: left;
+  margin-right: 12px;
+  margin-bottom: 20px;
+  position: relative;
+  height: 170px;
+}
+
+.page-kandidaten ul.list-kandidaten li.last {
+  margin-right: 0;
+}
+
+.page-kandidaten ul.list-kandidaten li .image img {
+  border-radius: 4px; 
+}
+
+.page-kandidaten ul.list-kandidaten li .vote {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.page-kandidaten ul.list-kandidaten li .vote a {
+  display: block;
+  background: #ed0973;
+  color: white;
+  font-weight: 100;
+  padding: 4px 12px;
+  text-transform: uppercase;
+  border-radius: 4px;
+	transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+}
+
+.page-kandidaten ul.list-kandidaten li .vote a:hover {
+	transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	color: #ed0973;
+	background: #ffffff;
+}
+
+.page-kandidaten ul.list-kandidaten li .number-of-votes {
+  position: absolute;
+  right: 4px;
+  bottom: 5px;
+  font-weight: 800;
+}
 
 /** Prijzen pages **/
 .context-prijzen h1#page-title {
