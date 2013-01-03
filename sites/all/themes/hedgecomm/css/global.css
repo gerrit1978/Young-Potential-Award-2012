@@ -225,7 +225,7 @@ section#section-content {
     width: 300px;
     height: 350px;
     background: #3a3636;
-    border-radius: 10px;
+    border-radius: 5px;
     color: white;
     margin-bottom: 10px;
 }
@@ -328,7 +328,7 @@ body.front #block-system-main {
     background: #ebeaea;
     float: left;
     margin-right: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 body.front #block-system-main .block-inner {
@@ -379,7 +379,7 @@ body.front .block-twitter {
 /** User (Registration/Edit) pages **/
 .page-user .region-content {
   background: #ebeaea;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .page-user .region-content .region-content-inner {
@@ -453,7 +453,7 @@ body.front .block-twitter {
 /** Kandidaten pages **/
 .page-kandidaten .region-content {
   background: #ebeaea;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .page-kandidaten .region-content .region-content-inner {
@@ -691,6 +691,65 @@ body.front .block-twitter {
 	-o-transition: all 0.2s;
 	color: #ed0973;
 	background: white;
+}
+
+
+/** Steps homepage **/
+.block-steps-homepage-large ul {
+  height: 180px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  list-style: none;
+  text-indent: -999em;
+}
+
+.block-steps-homepage-large ul li {
+  position: absolute;
+  height: 180px;
+}
+
+.block-steps-homepage-large ul li.active {
+  z-index: 20;
+}
+
+.block-steps-homepage-large ul li.step1 {
+	width: 294px;
+	background: url(../img/step1.png) no-repeat left top;
+}
+
+.block-steps-homepage-large ul li.step1.active {
+  background: url(../img/step1_active.png) no-repeat left top;
+}
+
+.block-steps-homepage-large ul li.step2 {
+  width: 332px;
+  background: url(../img/step2.png) no-repeat left top;
+  left: 200px;
+}
+
+.block-steps-homepage-large ul li.step2.active {
+  background: url(../img/step2_active.png) no-repeat left top;
+}
+
+.block-steps-homepage-large ul li.step3 {
+  width: 346px;
+  left: 435px;
+  background: url(../img/step3.png) no-repeat left top;
+}
+
+.block-steps-homepage-large ul li.step3.active {
+  background: url(../img/step3_active.png) no-repeat left top;
+}
+
+.block-steps-homepage-large ul li.step4 {
+  width: 247px;
+  left: 691px;
+  background: url(../img/step4.png) no-repeat left top;
+}
+
+.block-steps-homepage-large ul li.step4.active {
+  background: url(../img/step4_active.png) no-repeat left top;
 }
 
 /**
