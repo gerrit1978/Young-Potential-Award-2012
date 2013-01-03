@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * Implements hook_menu
+ */
+function hc_partners_menu() {
+  $items = array();
+  
+  $items['get-partner/%'] = array(
+    'page callback' => 'hc_partners_render',
+    'page arguments' => array(1),
+    'access arguments' => array('access content'),
+  );
+  
+  return $items;
+}
+
+
+function hc_partners_render($nid) {
+ 
+  $output = views_embed_view('partners', 'block_3', $nid);
+
+  print $output;
+  exit();
+}
