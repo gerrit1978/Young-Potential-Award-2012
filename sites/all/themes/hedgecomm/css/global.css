@@ -890,6 +890,45 @@ body.page-partners-onderwijsinstellingen .block-partner-menu ul li.first a {
   background: url(../img/step4_active.png) no-repeat left top;
 }
 
+/** Wildcard **/
+body.front #block-views-kandidaten-block-1 {
+  margin-left: 40px;
+  position: relative;
+  z-index: 90;
+}
+
+body.front #block-system-main {
+  position: relative;
+  z-index: 10000;
+  width: 580px;
+}
+
+#wildcard {
+  cursor: pointer;
+  width: 360px;
+  overflow: hidden;
+  background: #ebeaea url(../img/wildcard.png) no-repeat center right;
+  position: absolute;
+  left: 260px;
+  height: 290px;
+  top: 0;
+  border-left: 1px solid white;
+  z-index: 95;
+}
+
+#wildcard .inner {
+  margin: 20px;
+  margin-right: 50px;
+}
+
+#wildcard .inner h2 {
+  color: #ed0973;
+  line-height: 1.2;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
 /**
  * ARCHIVE STYLES 
 #block-block-4 {
