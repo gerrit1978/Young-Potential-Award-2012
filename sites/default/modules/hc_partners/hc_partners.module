@@ -1,14 +1,22 @@
 <?php
 
 /**
+ * Implements hook_init
+ */
+function hc_partners_init() {
+  $path = drupal_get_path('module', 'hc_partners');
+  drupal_add_js($path . '/hc_partners.js');
+}
+
+/**
  * Implements hook_menu
  */
 function hc_partners_menu() {
   $items = array();
   
-  $items['get-partner/%'] = array(
+  $items['get-partner/%/%'] = array(
     'page callback' => 'hc_partners_render',
-    'page arguments' => array(1),
+    'page arguments' => array(1, 2),
     'access arguments' => array('access content'),
   );
   
@@ -16,10 +24,17 @@ function hc_partners_menu() {
 }
 
 
-function hc_partners_render($nid) {
+function hc_partners_render($nid, $type) {
  
-  $output = views_embed_view('partners', 'block_3', $nid);
-
+ 	switch ($type) {
+ 	  case 'companies':
+		  $output = views_embed_view('partners', 'block_3', $nid); 	  
+		  break;
+		case 'sponsors':
+		  $output = views_embed_view('partners', 'block_5', $nid); 	  
+		  break;
+ 	}
+ 
   print $output;
   exit();
 }
