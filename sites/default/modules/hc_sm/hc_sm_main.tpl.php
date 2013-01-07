@@ -9,10 +9,18 @@
 </li>
 
 <li>
+<!-- Pinterest Button BEGIN -->
+<div class="pinterest widget">
+<a href="#" class="pinterest">&nbsp;</a>
+</div>
+<!-- Tweet Button END -->
+</li>
+
+
+<li>
 <!-- Tweet Button BEGIN -->
 <div class="twitter widget">
-<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<a href="https://twitter.com/secretaryplusbe">&nbsp;</a>
 </div>
 <!-- Tweet Button END -->
 </li>
@@ -20,8 +28,7 @@
 <li>
 <!-- LinkedIN BEGIN -->
 <div class="linkedin widget last">
-<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-<script type="IN/Share" data-url="<?php print $path; ?>"></script>
+<a href="#">&nbsp;</a>
 </div>
 <!-- LinkedIN END -->
 </li>

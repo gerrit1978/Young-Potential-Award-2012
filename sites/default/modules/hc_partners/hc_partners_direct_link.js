@@ -9,7 +9,8 @@ jQuery(document).ready(function($) {
 	    $.get(url, function(data) {
   	    $('div.item-list-solo').fadeOut(0.01, function() {
     	    $('div.item-list-solo').html(data).fadeIn(0.01);
-    	    
+					var offset = $('ul.list-dummy').offset();
+					$('html, body').animate({scrollTop:offset.top}, "slow");
       	});
     	});
   }
@@ -20,13 +21,11 @@ jQuery(document).ready(function($) {
 	    $.get(url, function(data) {
   	    $('div.item-list-solo').fadeOut(0.01, function() {
     	    $('div.item-list-solo').html(data).fadeIn(0.01);
+					var offset = $('ul.list-dummy').offset();
+					$('html, body').animate({scrollTop:offset.top}, "fast");
       	});
     	});
   }
-
-	var offset = $('ul.list-dummy').offset();
-	$('html, body').animate({scrollTop:offset.top}, 0);
-
 
 //	console.log(Drupal.settings.partner_nid.partner_nid);
 });
