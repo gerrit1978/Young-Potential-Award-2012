@@ -631,6 +631,14 @@ body.front .block-twitter {
   margin-bottom: 10px;
 }
 
+.view-prijzen .view-header,
+.view-prijzen .view-footer {
+  background: #ebeaea;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
 
 /** Partner Pages **/
 .block-partner-menu {
@@ -777,6 +785,33 @@ body.page-partners-onderwijsinstellingen .block-partner-menu ul li.first a {
 .view-partners ul.block-sub h2 {
   color: white;
 }
+
+.alle-partners-onderaan {
+  margin-top: 10px;
+}
+
+.alle-partners-onderaan .view-content {
+  background: none;
+}
+
+.alle-partners-onderaan h2.block-title {
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+
+.alle-partners-onderaan ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.alle-partners-onderaan ul.alle-partners li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+}
+
 
 /** Wedstrijd Pages - tekstblokken **/
 /*

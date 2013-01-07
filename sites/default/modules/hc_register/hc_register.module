@@ -233,7 +233,7 @@ function hc_register_confirm_form($form, &$form_state) {
   $account = entity_metadata_wrapper('user', $uid);
   $firstname = $account->field_user_firstname->value();
 
-	$markup = "Bevestig hier je deelname: " . $firstname;
+	$markup = "Bevestig hier je deelname: " . $firstname . "<br /><br />TODO: rest van de velden ter bevestiging komen hier";
 
 
   $form = array();
