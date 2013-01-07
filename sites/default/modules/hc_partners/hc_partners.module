@@ -24,6 +24,34 @@ function hc_partners_menu() {
 }
 
 
+/**
+ * Implements hook_preprocess_page
+ */
+function hc_partners_preprocess_page(&$vars) {
+
+	// make specific partner visible
+	if (isset($_GET['partner_nid'])) {
+	
+		$partner_nid = $_GET['partner_nid'];
+		$partner = node_load($partner_nid);
+		$partner_type = $partner->type;
+	
+	  $path = drupal_get_path('module', 'hc_partners');
+	  
+	  $settings['hc_partner'] = array(
+	    'partner_nid' => $partner_nid,
+	    'partner_type' => $partner_type,
+	  );
+	  
+	  drupal_add_js($settings, 'setting');
+		drupal_add_js($path . '/hc_partners_direct_link.js');
+  }
+
+
+}
+
+
+
 function hc_partners_render($nid, $type) {
  
  	switch ($type) {
