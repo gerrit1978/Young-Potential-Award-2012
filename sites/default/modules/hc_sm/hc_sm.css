@@ -18,7 +18,7 @@
   float: left;
   max-width: 75px;
   margin-right: 10px;
-  margin-top: 9px;
+  margin-top: 15px;
 }
 
 #block-hc-sm-hc-sm ul li.first {
@@ -26,7 +26,43 @@
 }
 
 #block-hc-sm-hc-sm ul li.last {
-  margin: 0;
   max-width:120px;
-  margin-left: 20px;
+  margin-top: 9px;
+}
+
+#block-hc-sm-hc-sm ul li .facebook {
+  margin-top: 2px;
+}
+
+#block-hc-sm-hc-sm ul li .pinterest {
+  width: 24px;
+  height: 24px;
+  background: url(img/icon_pinterest.png) no-repeat left top;
+}
+
+#block-hc-sm-hc-sm ul li .pinterest a {
+  text-indent: -999em;
+  display: block;
+}
+
+#block-hc-sm-hc-sm ul li .twitter {
+  background: url(img/icon_twitter.png) no-repeat left top;
+  width: 24px;
+  height: 24px;
+}
+
+#block-hc-sm-hc-sm ul li .twitter a {
+  text-indent: -999em;
+  display: block;
+}
+
+#block-hc-sm-hc-sm ul li .linkedin {
+  background: url(img/icon_linkedin.png) no-repeat left top;
+  width: 24px;
+  height: 24px;
+}
+
+#block-hc-sm-hc-sm ul li .linkedin a {
+  text-indent: -999em;
+  display: block;
 }
