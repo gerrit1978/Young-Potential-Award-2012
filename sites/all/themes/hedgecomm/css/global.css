@@ -813,7 +813,7 @@ body.page-partners-onderwijsinstellingen .block-partner-menu ul li.first a {
   float: left;
   margin: 0;
   padding: 0;
-  margin-right: 10px;
+  margin-right: 25px;
 }
 
 
@@ -938,7 +938,7 @@ body.front #block-views-kandidaten-block-1 {
 
 body.front #block-system-main {
   position: relative;
-  z-index: 10000;
+  z-index: 100;
   width: 580px;
 }
 
